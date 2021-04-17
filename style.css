@@ -1,0 +1,46 @@
+body, html {
+font-family: 'Lexend', sans-serif;
+font-size: 1rem;
+display: flex;
+justify-content: center;
+width: 100vw;
+}
+
+.wrapper {
+border: 1px solid black;
+}
+
+.playscore-container {
+font-size: 1.7rem;
+font-weight: bold;
+}
+
+.btn-container {
+ padding-top: 30px;
+}
+
+.btn {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn-player1 {
+  background-color: aqua;
+}
+
+.btn-player2 {
+  background-color: pink;
+}
+
+.btn-reset {
+  background-color: red;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
