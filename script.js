@@ -1,8 +1,15 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4c91814622c46fee53bfce35adcb5683f7fd6c2
 const p1 = {
   score: 0,
   button: document.querySelector('.btn-player1'),
   display: document.querySelector('.player1-score')
+<<<<<<< HEAD
   
+=======
+>>>>>>> f4c91814622c46fee53bfce35adcb5683f7fd6c2
 }
 
 const p2 = {
@@ -27,6 +34,7 @@ function updateScores(player, opponent) {
       opponent.display.classList.add('loser');
       player.button.disabled = true;
       opponent.button.disabled = true;
+<<<<<<< HEAD
       
     }
 
@@ -40,6 +48,10 @@ function updateScores(player, opponent) {
     
        player.display.innerText = player.score;
       
+=======
+    }
+       player.display.innerText = player.score;
+>>>>>>> f4c91814622c46fee53bfce35adcb5683f7fd6c2
     }
   }
 
@@ -71,8 +83,11 @@ function reset(){
     p.display.innerText = 0;
     p.display.classList.remove('winner', 'loser');
     p.button.disabled = false;
+<<<<<<< HEAD
     winningMsg.style.display = 'none';
 
 
+=======
+>>>>>>> f4c91814622c46fee53bfce35adcb5683f7fd6c2
   }
 };
