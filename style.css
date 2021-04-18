@@ -1,46 +1,77 @@
 body, html {
-font-family: 'Lexend', sans-serif;
-font-size: 1rem;
-display: flex;
-justify-content: center;
-width: 100vw;
-}
-
-.wrapper {
-border: 1px solid black;
-}
-
-.playscore-container {
-font-size: 1.7rem;
-font-weight: bold;
-}
-
-.btn-container {
- padding-top: 30px;
-}
-
-.btn {
   font-family: 'Lexend', sans-serif;
   font-size: 1rem;
   font-weight: bold;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+  }
+  
+  .wrapper {
+  border: 3px solid black;
+  height: auto;
+  width: auto;
+  text-align: center;
+  
+  }
+  
+  .playscore-container {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+  }
+  
+  .btn-container {
+   padding-top: 30px;
+    margin-bottom: 5%;
+  }
+  
+  .btn {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1%;
+  
+  
+  }
+  
+  .btn-player1 {
+    background-color: #e9c46a;
+    border-radius: 20px;
+    
+  }
+  
+  .btn-player2 {
+    background-color: #e63946;
+    border-radius: 20px;
+  }
+  
+  .btn-reset {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .winner {
+    color: green;
+  }
+  
+  .loser {
+    color: red;
+  }
+  
+  img {
+    width: 600px;
+    height: 400px;
+  }
 
-.btn-player1 {
-  background-color: aqua;
-}
-
-.btn-player2 {
-  background-color: pink;
-}
-
-.btn-reset {
-  background-color: red;
-}
-
-.winner {
-  color: green;
-}
-
-.loser {
-  color: red;
-}
+  .winning-msg {
+  padding: 5%;
+  margin-bottom: 5%;
+  background-color:#caffbf;
+  color: #1b4332;
+  display: none;
+  }
